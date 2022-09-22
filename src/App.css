@@ -1,0 +1,122 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+}
+
+body {
+   
+    box-sizing: inherit;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu-30 {
+
+    overflow: auto;
+
+    width: 320px;
+    position: fixed;
+    height: 100%;
+}
+
+.a-menu-30 {
+    padding: 20px;
+    display: block;
+    color: #fff;
+}
+
+.a-menu-30::after,
+body::after,
+.menu-30::after,
+.a-content-menu-30::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color-fff {
+    color: #fff;
+}
+
+.div-black {
+    background: black;
+    opacity: 0.6;
+}
+
+.div-red {
+    background: red;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.div-hover:hover {
+    background: #ddd;
+    color: #000;
+}
+
+.div-black:hover {
+    opacity: 1;
+}
+
+.a-content-menu-30 {
+    padding: 16px;
+    display: block;
+    background: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.div-a-content-30 {
+    padding: 0 16px;
+    color: #000;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.hover-d:hover {
+    background: #ddd !important;
+}
+.menu-70{
+   
+    margin-left:320px;
+}
+.content-menu-70{
+    padding:0 16px;
+    display: block;
+}
+.margin-left{
+    margin-left:10px;
+}
+.button-70{
+    padding:15px;
+    border:none;
+}
+img{
+    border-radius: 5px;
+}
